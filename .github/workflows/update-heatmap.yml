@@ -1,0 +1,31 @@
+# Refresh a stacked contribution heatmap SVG for the profile README.
+# Output lands on the `output` branch (force-updated each run).
+
+name: Update contribution heatmap
+
+on:
+  schedule:
+    # ~06:17 UTC daily (offset from midnight to avoid schedule congestion)
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  heatmap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate contribution charts
+        uses: pipipi-dev/gcchart@v1
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          target_branch: output
+          commit_message: "chore: refresh contribution heatmap [skip ci]"
+          outputs: |
+            contributions.svg?style=clean&theme=light&period=365&granularity=week
+            contributions-dark.svg?style=clean&theme=dark&period=365&granularity=week
