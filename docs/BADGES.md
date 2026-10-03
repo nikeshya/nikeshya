@@ -35,3 +35,8 @@ Profile polish and contribution graphs improve how the profile looks. They do
 2. Push `main`, enable Actions, run **Update contribution heatmap** and **Generate contribution snake** once via *workflow_dispatch*.
 3. Confirm SVGs appear on the `output` branch and render in the README.
 4. Optionally open/merge a few small PRs here for **Pull Shark** / **YOLO** practice on a safe repo.
+
+## Progress log
+
+- Profile repo published at https://github.com/nikeshya/nikeshya
+- Quickdraw-oriented issue opened and closed promptly on this repo
