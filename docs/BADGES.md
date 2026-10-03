@@ -40,3 +40,5 @@ Profile polish and contribution graphs improve how the profile looks. They do
 
 - Profile repo published at https://github.com/nikeshya/nikeshya
 - Quickdraw-oriented issue opened and closed promptly on this repo
+
+- Merged docs PR for Pull Shark practice
