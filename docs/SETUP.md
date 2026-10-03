@@ -34,9 +34,9 @@ git push -u github main
 1. Open the repo **Actions** tab and allow workflows if prompted.
 2. Run **Update contribution heatmap** → *Run workflow*.
 3. Run **Generate contribution snake** → *Run workflow*.
-4. Confirm the `output` branch contains:
-   - `contributions.svg`, `contributions-dark.svg`
-   - `github-contribution-grid-snake.svg`, `github-contribution-grid-snake-dark.svg`
+4. Confirm generated branches:
+   - `charts`: `contributions.svg`, `contributions-dark.svg`
+   - `output`: `github-contribution-grid-snake.svg`, `github-contribution-grid-snake-dark.svg`
 5. Visit `https://github.com/nikeshya` — the README should appear at the top.
 
 ## Private contributions on the heatmap

@@ -31,7 +31,5 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
-          # Keep heatmap files already on `output` when this job runs alone.
-          keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -8,7 +8,7 @@ Profile polish and contribution graphs improve how the profile looks. They do
 | Achievement / signal | How this repo helps | Realistic? |
 | --- | --- | --- |
 | Polished profile | Special repo `nikeshya/nikeshya` README renders on the profile | Yes — after the repo exists under that exact name |
-| Contribution visuals | Heatmap + snake Actions refresh SVGs on `output` | Yes — after first successful workflow run |
+| Contribution visuals | Heatmap (`charts`) + snake (`output`) Actions refresh SVGs | Yes — after first successful workflow run |
 | GitHub Actions usage | Scheduled + `workflow_dispatch` workflows in `.github/workflows` | Helps demonstrate Actions fluency; not a named Achievement |
 
 ## Achievements that need real account activity (not automatic)

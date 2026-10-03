@@ -72,9 +72,9 @@ Stacked contribution heatmap (commits / PRs / issues / reviews):
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nikeshya/nikeshya/output/contributions-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nikeshya/nikeshya/output/contributions.svg" />
-  <img alt="nikeshya contribution heatmap" src="https://raw.githubusercontent.com/nikeshya/nikeshya/output/contributions.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nikeshya/nikeshya/charts/contributions-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nikeshya/nikeshya/charts/contributions.svg" />
+  <img alt="nikeshya contribution heatmap" src="https://raw.githubusercontent.com/nikeshya/nikeshya/charts/contributions.svg" width="100%" />
 </picture>
 
 </div>
@@ -116,7 +116,7 @@ Stacked contribution heatmap (commits / PRs / issues / reviews):
 
 | Workflow | Purpose |
 | --- | --- |
-| [`update-heatmap.yml`](.github/workflows/update-heatmap.yml) | Daily contribution chart (gcchart) → `output` branch |
+| [`update-heatmap.yml`](.github/workflows/update-heatmap.yml) | Daily contribution chart (gcchart) → `charts` branch |
 | [`contribution-snake.yml`](.github/workflows/contribution-snake.yml) | Daily contribution-grid snake SVG → `output` branch |
 
 After the first Actions run on GitHub, the graph images above populate automatically.

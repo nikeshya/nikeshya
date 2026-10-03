@@ -24,7 +24,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          target_branch: output
+          # Separate branch from the snake workflow so force-pushes do not clobber each other.
+          target_branch: charts
           commit_message: "chore: refresh contribution heatmap [skip ci]"
           outputs: |
             contributions.svg?style=clean&theme=light&period=365&granularity=week
