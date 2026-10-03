@@ -44,3 +44,5 @@ Profile polish and contribution graphs improve how the profile looks. They do
 - Merged docs PR for Pull Shark practice
 
 - Second merged PR recorded
+
+- Restored GitHub Actions workflows (heatmap + snake) after granting `workflow` OAuth scope
